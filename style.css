@@ -179,9 +179,7 @@ nav .navigation ul li a:hover {
     grid-gap: 1rem;
     text-align: center;
     cursor: pointer;
-    margin-top: 50px;
-   
-    
+    margin-top: 50px;   
 }
 
 #program .programs:hover {
@@ -232,7 +230,6 @@ nav .navigation ul li a:hover {
     border-radius: 40px;
 } 
 
-
 #program .programs .details {
     padding: 15px 15px 0 15px;
     text-align: center;
@@ -263,7 +260,6 @@ nav .navigation ul li a:hover {
     color: #00175C;
     background-color: #fff;
 }
-
 
 /* Tracks Section */
 #track {
@@ -312,7 +308,6 @@ nav .navigation ul li a:hover {
     transition: 0.3s ease;
 }
 
-
 #track .btn {
     margin-left: 108px;
     margin-top: 20px;
@@ -322,7 +317,6 @@ nav .navigation ul li a:hover {
     color: #00175C;
     background-color: #fff;
 }
-
 
 #services {
     padding: 8vw 8vw 8vw 8vw;
@@ -386,17 +380,19 @@ nav .navigation ul li a:hover {
     padding: 20px 60px;
     text-align: center;
 }
+
 .faq-container{
 display: flex;
 justify-content: center;
 flex-direction: column;
 padding: 6vw 4vw 6vw 4vw;
 }
+
 .hr-line{
   width: 60%;
-  margin: auto;
-  
+  margin: auto;  
 }
+
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
@@ -410,19 +406,21 @@ padding: 6vw 4vw 6vw 4vw;
     margin: auto;
     font-size: 20px;
 }
+
 .faq-body{
     margin: auto;
     /* text-align: center; */
    width: 50%; 
    padding: auto;
-    font-size: 10px;
-   
+    font-size: 10px;  
 }
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .faq-page:hover {
     background-color: #F9F9F9;
 }
+
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
     padding: 0 18px;
@@ -430,6 +428,7 @@ padding: 6vw 4vw 6vw 4vw;
     display: none;
     overflow: hidden;
 }
+
 .faq-page:after {
     content: '\02795';
     /* Unicode character for "plus" sign (+) */
@@ -438,6 +437,7 @@ padding: 6vw 4vw 6vw 4vw;
     float: right;
     margin-left: 5px;
 }
+
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
@@ -455,8 +455,6 @@ footer {
 footer .footer-col {
    padding-bottom: 40px;
 }
-
-
 
 footer h3 {
     color: rgb(241, 240, 245);
@@ -522,9 +520,6 @@ footer .subscribe a {
     order: 0;
     flex-grow: 0;
 }
-
-
-
 
 footer .copyright {
     margin-top: 20px;
